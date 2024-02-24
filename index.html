@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <span class="navbar-text">Students Portal</span>
+        </nav>
+        <input type="text" id="searchInput" placeholder="Search...">
+
+        <div class="flex-container">
+            <button onclick="sortAZ()">Sort A->Z</button>
+            <button onclick="sortZA()">Sort Z->A</button>
+            <button onclick="sortByMarks()">Sort by Marks</button>
+            <button onclick="sortByPassing()">Sort by Passing</button>
+            <button onclick="sortByClass()">Sort by Class</button>
+            <button onclick="sortGender()">Sort by Gender</button>
+        </div>
+        <table id="studentTable">
+        </table>
+    </div>
+    <script src="2test.js"></script>
+</body>
+
+</html>
